@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <style>
+    .header {
+      display: flex;
+      height: 60px;
+      margin-top: 30px;
+      /* background-color: red; */
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header .right {
+      display: flex;
+      width: 100px;
+      /* align-items: center; */
+      justify-content: space-evenly;
+    }
+
+    .header .right a span {
+      box-sizing: border-box;
+      color: #000;
+      height: 27px;
+      padding: 3px 0;
+    }
+
+    .header .right a span:hover {
+      border-bottom: 2px solid red;
+    }
+
+    .main .list {
+      margin-right: -14px;
+    }
+
+    .main .clear-fix::after {
+      display: block;
+      content: "";
+      clear: both;
+
+      height: 0;
+      visibility: hidden;
+    }
+
+    .clear-fix {
+      *zoom: 1;
+    }
+
+    .main .item {
+      float: left;
+      width: 234px;
+      height: 300px;
+      background-color: green;
+      margin-right: 14px;
+      margin-bottom: 14px;
+      transition: transform .3s ease-out;
+    }
+
+    .main .item:hover {
+      box-shadow: 0 15px 15px #f00;
+      transform: translateY(-6px);
+    }
+
+    .main .item.item1 {
+      height: 614px;
+    }
+
+    .main .item.item9,
+    .main .item.item10 {
+      height: 143px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap_01 header">
+    <span class="left">智能穿戴</span>
+    <div class="right">
+      <a href="#"><span>热门</span></a>
+      <a href="#"><span>穿戴</span></a>
+    </div>
+  </div>
+  <div class="wrap_01 main">
+    <ul class="list clear-fix">
+      <li class="item item1"><a href="#">1</a></li>
+      <li class="item item2"><a href="#">2</a></li>
+      <li class="item item3"><a href="#">3</a></li>
+      <li class="item item4"><a href="#">4</a></li>
+      <li class="item item5"><a href="#">5</a></li>
+      <li class="item item6"><a href="#">6</a></li>
+      <li class="item item7"><a href="#">7</a></li>
+      <li class="item item8"><a href="#">8</a></li>
+      <li class="item item9"><a href="#">9</a></li>
+      <li class="item item10"><a href="#">10</a></li>
+    </ul>
+  </div>
+</body>
+
+</html>
