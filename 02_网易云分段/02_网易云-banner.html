@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>网易云-banner</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <style>
+    .banner {
+      background: url(./images/banner_bg_02.jpeg) center center / 6000px;
+    }
+
+    .content {
+      position: relative;
+      height: 285px;
+      background-color: red;
+    }
+
+    .content .content-left {
+      position: relative;
+      float: left;
+      width: 730px;
+      background-color: green;
+    }
+
+    .content .content-left .img-list {
+      display: flex;
+      overflow: hidden;
+    }
+
+    .content .content-left .img-list li {
+      flex-shrink: 0;
+      width: 100%;
+    }
+
+    .content .content-left .img-list .item {
+      display: block;
+    }
+
+    .content .content-left .img-list .item img {
+      vertical-align: top;
+      width: 100%;
+      height: 285px;
+    }
+
+    .content .content-left .dots-list {
+      position: absolute;
+      display: flex;
+      left: 0;
+      right: 0;
+      bottom: 5px;
+      justify-content: center;
+    }
+
+    .content .content-left .dots-list li {
+      margin: 0 2px;
+    }
+
+    .content .content-left .dots-list .item {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: url(./images/banner_sprite.png) 3px -343px;
+    }
+
+    .content .content-left .dots-list .item.active,
+    .content .content-left .dots-list .item:hover {
+      background-position: -16px -343px;
+    }
+
+    .content .content-right {
+      float: left;
+      width: 252px;
+      height: 285px;
+      background-color: blue;
+      background: url(./images/download_sprite.png);
+    }
+
+    .content .content-right .download {
+      display: block;
+      width: 215px;
+      height: 56px;
+      margin: 186px 0 0 19px;
+    }
+
+    .content .content-right .desc {
+      margin-top: 10px;
+      text-align: center;
+      font-size: 12px;
+      color: #8d8d8d;
+    }
+
+    .content .control {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      width: 37px;
+      height: 63px;
+      background: url(./images/banner_sprite.png);
+    }
+
+    .content .control.control-left {
+      left: -70px;
+      background-position: 0 -360px;
+    }
+
+    .content .control.control-left:hover {
+      background-position: 0 -430px;
+    }
+
+    .content .control.control-right {
+      right: -70px;
+      background-position: 0 -508px;
+    }
+
+    .content .control.control-right:hover {
+      background-position: 0 -578px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="banner">
+    <div class="content banner_wrap">
+      <div class="content-left">
+        <ul class="img-list">
+          <li>
+            <a class="item" href="#">
+              <img src="./images/banner_02.jpeg" alt="">
+            </a>
+          </li>
+          <li>
+            <a class="item" href="#">
+              <img src="./images/banner_02.jpeg" alt="">
+            </a>
+          </li>
+          <li>
+            <a class="item" href="#">
+              <img src="./images/banner_02.jpeg" alt="">
+            </a>
+          </li>
+          <li>
+            <a class="item" href="#">
+              <img src="./images/banner_02.jpeg" alt="">
+            </a>
+          </li>
+        </ul>
+        <ul class="dots-list">
+          <li><a href="#" class="item active"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+          <li><a href="#" class="item"></a></li>
+        </ul>
+      </div>
+      <div class="content-right">
+        <a class="download" href="#"></a>
+        <p class="desc">PC 安卓 iPhone WP iPad Mac 六大客户端</p>
+      </div>
+      <a href="#" class="control control-left"></a>
+      <a href="#" class="control control-right"></a>
+    </div>
+  </div>
+</body>
+
+</html>
