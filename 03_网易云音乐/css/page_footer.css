@@ -1,0 +1,117 @@
+.footer {
+  border-top: 1px solid #ccc;
+}
+
+.footer .area {
+  display: flex;
+  width: 980px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.footer .area .copy {
+  font-size: 12px;
+  color: #666;
+}
+
+.footer .area .copy .link-list {
+  flex: 1;
+  display: flex;
+  margin-top: 10px;
+}
+
+.footer .area .copy .link-list .item a {
+  color: #999999;
+}
+
+.footer .area .copy .link-list .item span {
+  color: #999999;
+}
+
+.footer .area .copy .link-list .item .line {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+.footer .area .copy .copy-left {
+  margin-top: 6px;
+}
+
+.footer .area .copy .copy-left a:hover {
+  text-decoration: underline;
+}
+.footer .area .copy .copy-left a {
+  color: #666;
+}
+
+.footer .area .copy .copy-left .police-logo {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background: url(../images/police.png);
+  background-size: cover;
+  margin-right: 3px;
+  vertical-align: -2px;
+}
+
+.footer .area .enter {
+  flex: 1;
+}
+
+.footer .area .enter ul {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+
+.footer .area .enter ul li {
+  width: 72px;
+  text-align: center;
+}
+
+.footer .area .enter .unit a {
+  display: inline-block;
+  width: 50px;
+  height: 45px;
+  background: url(../images/foot_enter_new.png) no-repeat;
+  background-size: 110px 552px;
+}
+
+.footer .area .enter .unit span {
+  display: inline-block;
+  width: 72px;
+  height: 14px;
+  background: url(../images/foot_enter_tt.png) no-repeat;
+}
+
+.footer .area .enter .unit span.tt-amped {
+  background-position: 0 -108px;
+  background-size: 180px 139px;
+}
+
+.footer .area .enter .unit a.logo-amped {
+  background-position: -63px -456.5px;
+}
+
+.m-back {
+  position: fixed;
+  bottom: 200px;
+  right: 300px;
+  width: 48px;
+  height: 44px;
+  text-indent: -9999px;
+  border-radius: 3px;
+}
+
+.m-back a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  background: url(../images/sprite.png) no-repeat -265px -47px;
+}
+
+.m-back a:hover {
+  background-position: -325px -47px;
+}
