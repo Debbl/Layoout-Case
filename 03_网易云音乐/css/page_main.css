@@ -1,0 +1,64 @@
+.main .area .content-right .music-btn {
+  width: 250px;
+  height: 31px;
+  text-align: center;
+}
+
+.main .area .content-right .music-btn a {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 210px;
+  height: 31px;
+  line-height: 31px;
+  padding-right: 5px;
+  border-radius: 3px;
+  background: url(../images/btn_sprite.png) no-repeat right -100px;
+}
+
+.main .area .content-right .music-btn i {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 205px;
+  height: 31px;
+  padding-left: 20px;
+  padding-right: 15px;
+  background: url(../images/btn_sprite.png) no-repeat 0 -59px;
+}
+
+.main .area .content-right .hot-anchor-right {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.main .area .content-right .hot-anchor-right .list li {
+  display: flex;
+  width: 210px;
+  height: 50px;
+}
+
+.main .area .content-right .hot-anchor-right .list li a.cover {
+  display: inline-block;
+}
+.main .area .content-right .hot-anchor-right .list li img {
+  width: 40px;
+  height: 40px;
+  vertical-align: top;
+}
+
+.main .area .content-right .hot-anchor-right .list .info {
+  padding: 0 10px;
+  color: #666;
+  overflow: hidden;
+}
+.main .area .content-right .hot-anchor-right .list .info p a {
+  display: inline-block;
+  margin-bottom: 6px;
+  color: #000;
+}
+
+.main .area .content-right .hot-anchor-right .list .info .desc {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
