@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>网易云-main-left</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <style>
+    .main .content {
+      display: flex;
+      border: 1px solid #d3d3d3;
+      border-width: 0 1px;
+      background-image: url(./images/main_bg.png);
+    }
+
+    .main .content .content-left {
+      width: 729px;
+    }
+
+    .main .content .content-right {
+      width: 250px;
+    }
+
+    .main .content .content-right .user-login {
+      width: 250px;
+      height: 126px;
+      background: url(./images/main_sprite.png) 0 0;
+    }
+
+    .content .content-right .user-login .desc {
+      width: 205px;
+      margin: 0 auto;
+      padding-top: 16px;
+      color: #666;
+      font-size: 12px;
+      line-height: 22px;
+    }
+
+    .content .content-right .user-login .btn {
+      display: block;
+      width: 100px;
+      margin: 15px auto 0;
+      text-align: center;
+      line-height: 31px;
+      color: #fff;
+      font-size: 12px;
+      background: url(./images/main_sprite.png) 0 -195px;
+      text-shadow: 0 1px 0 #8a060b;
+    }
+
+    .content .content-right .settle-singer {
+      padding: 20px;
+    }
+
+    .content .content-right .settle-singer .list {
+      padding: 5px 0;
+    }
+
+    .content .content-right .settle-singer .list .item {
+      display: flex;
+      width: 210px;
+      height: 62px;
+      margin-top: 15px;
+      background-color: #fafafa;
+    }
+
+    .content .content-right .settle-singer .list .item .info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 3px 12px;
+      border: 1px solid #e9e9e9;
+      border-left: none;
+      overflow: hidden;
+    }
+
+    .content-right .settle-singer .list .item .info .singer {
+      font-size: 14px;
+      font-weight: 700;
+      color: #000;
+    }
+
+    .content-right .settle-singer .list .item .info .desc {
+      font-size: 12px;
+      color: #666;
+
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    .content-right .hot-anchor {
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="content main_wrap">
+      <div class="content-left">
+        <div class="recommend-section">
+          <div class="header_type_02">
+            <div class="area-left">
+              <h2 class="title">热门推荐</h2>
+              <ul class="keyword">
+                <li>
+                  <a class="item" href="#">华语</a>
+                </li>
+                <li class="line">|</li>
+                <li>
+                  <a class="item" href="#">华语</a>
+                </li>
+                <li class="line">|</li>
+                <li>
+                  <a class="item" href="#">华语</a>
+                </li>
+                <li class="line">|</li>
+                <li>
+                  <a class="item" href="#">华语</a>
+                </li>
+                <li class="line">|</li>
+                <li>
+                  <a class="item" href="#">华语</a>
+                </li>
+                <li class="line">|</li>
+              </ul>
+            </div>
+            <div class="area-right">
+              <a class="more" href="#">更多</a>
+            </div>
+          </div>
+        </div>
+        <div class="disc-section">
+          <div class="header_type_02">
+            <div class="area-left">
+              <h2 class="title">新碟上架</h2>
+            </div>
+            <div class="area-right">
+              <a class="more" href="#">更多</a>
+            </div>
+          </div>
+        </div>
+        <div class="rank-section">
+          <div class="header_type_02">
+            <div class="area-left">
+              <h2 class="title">榜单</h2>
+            </div>
+            <div class="area-right">
+              <a class="more" href="#">更多</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content-right">
+        <div class="user-login">
+          <p class="desc">登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+          <a class="btn" href="#">用户登录</a>
+        </div>
+        <div class="settle-singer">
+          <div class="header_type_01">
+            <h3 class="title">入驻歌手</h3>
+            <a href="#" class="more">查看全部&gt;</a>
+          </div>
+          <ul class="list">
+            <li>
+              <a href="#" class="item">
+                <dvi class="album">
+                  <img src="./images/singer_01.jpeg" alt="">
+                </dvi>
+                <div class="info">
+                  <div class="singer">张惠妹aMEI</div>
+                  <div class="desc">台湾歌手张惠妹</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="item">
+                <dvi class="album">
+                  <img src="./images/singer_01.jpeg" alt="">
+                </dvi>
+                <div class="info">
+                  <div class="singer">张惠妹aMEI</div>
+                  <div class="desc">台湾歌手张惠妹</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="item">
+                <dvi class="album">
+                  <img src="./images/singer_01.jpeg" alt="">
+                </dvi>
+                <div class="info">
+                  <div class="singer">张惠妹aMEI</div>
+                  <div class="desc">台湾歌手张惠妹</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="item">
+                <dvi class="album">
+                  <img src="./images/singer_01.jpeg" alt="">
+                </dvi>
+                <div class="info">
+                  <div class="singer">张惠妹aMEI</div>
+                  <div class="desc">台湾歌手张惠妹</div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="item">
+                <dvi class="album">
+                  <img src="./images/singer_01.jpeg" alt="">
+                </dvi>
+                <div class="info">
+                  <div class="singer">张惠妹aMEI</div>
+                  <div class="desc">台湾歌手张惠妹</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="hot-anchor">
+          <div class="header_type_01">
+            <h3 class="title">热门主播</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

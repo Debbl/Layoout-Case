@@ -15,3 +15,60 @@
 .header_type_01 .more {
   color: #666;
 }
+
+
+.header_type_02 {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  height: 35px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 34px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #C10D0C;
+  background: url(../images/main_sprite.png) no-repeat -225px -156px;
+}
+
+.header_type_02::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: 5px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  background: url(../images/main_sprite.png) no-repeat 0 -240px;
+}
+
+.header_type_02 .area-left {
+  display: flex;
+  align-items: center;
+}
+.header_type_02 .area-left .title {
+  font-size: 20px;
+  font-weight: normal;
+  color: #333;
+}
+
+.header_type_02 .keyword {
+  display: flex;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #999;
+}
+
+.header_type_02 .keyword .item {
+  color: #666;
+}
+
+.header_type_02 .keyword .line {
+  margin: 0 12px;
+}
+
+.header_type_02 .area-right .more {
+  font-size: 12px;
+  color: #666;
+}
