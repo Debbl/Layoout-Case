@@ -11,3 +11,7 @@ a {
   color: #000;
   outline: none;
 }
+
+i {
+  font-style: normal;
+}

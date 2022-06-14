@@ -12,3 +12,33 @@
   width: 980px;
   margin: 0 auto;
 }
+
+.btn_sprite {
+  display: inline-block;
+  height: 31px;
+  line-height: 31px;
+  text-align: center;
+  background: url(../images/btn_sprite.png) no-repeat;
+}
+
+.btn_type_01_sup {
+  background-position: right -100px;
+  padding-right: 5px;
+}
+
+.btn_type_01_sub {
+  display: block;
+  background-position: 0 -59px;
+  padding-left: 3px;
+}
+
+.btn_type_favor_sup {
+  background-position: right -1020px;
+  padding-right: 5px;
+}
+
+.btn_type_favor_sub {
+  background-position: 0 -977px;
+  padding-left: 28px;
+  padding-right: 3px;
+}
